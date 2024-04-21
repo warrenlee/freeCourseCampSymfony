@@ -13,4 +13,4 @@
 /public/build/
 ###< pentatrion/vite-bundle ###
 
-/public/uploads/*
+/public/uploads/
