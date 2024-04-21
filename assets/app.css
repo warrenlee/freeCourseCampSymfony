@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-sans;
+  }
+
+  a {
+    @apply text-blue-600 hover:underline hover:text-blue-500;
+  }
+
+  table th,
+  table td {
+    @apply py-4 first:pl-4 last:pr-4;
+  }
+
+  table tbody tr {
+    @apply odd:bg-gray-200;
+  }
+}
+
+@layer components {
+  .button {
+    @apply bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-700;
+  }
+}

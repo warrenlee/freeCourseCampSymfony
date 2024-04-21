@@ -1,0 +1,12 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+  <div class="container">
+    <p class="text-sm">{{ post.category }}</p>
+    <h1 class="text-4xl font-bold mb-4">{{ post.title }}</h1>
+
+    {% if post.image %}
+      <img src="{{ uploads_public ~ post.image }}" alt="{{ post.title }}" />
+    {% endif %}
+  </div>
+{% endblock %}

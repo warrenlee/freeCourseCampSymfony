@@ -1,0 +1,7 @@
+main:
+  path: /
+  controller: App\Controller\MainController::index
+
+custom:
+  path: /custom/{name?}
+  controller: App\Controller\MainController::custom
